@@ -37,7 +37,6 @@
         <source-file src="src/android/LegacyWhitelistPlugin.java" target-dir="src/org/apache/cordova/whitelist" />
     </platform>
 
-    <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Whitelist">
@@ -49,5 +48,4 @@
         <header-file src="src/ios/CDVLegacyWhitelistPlugin.h" />
         <source-file src="src/ios/CDVLegacyWhitelistPlugin.m" />
     </platform>
-    -->
 </plugin>
